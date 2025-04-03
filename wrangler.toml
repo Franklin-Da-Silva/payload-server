@@ -1,0 +1,9 @@
+name = "my-payload-worker"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "payload-db"
+database_id = "a8af3ce3-ec8b-4910-96bd-04babae7df6f"
